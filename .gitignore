@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Run outputs of Experiments 2-4 (timestamped folders)
+experiments/*/results_saved_data/
+experiments/experiment 4/results/
+
+# Optional summary written by cells 4-5 of the Experiment 1 training notebooks
+/results/
+
+# Airline data (large; regenerate with experiments/experiment 4/run_saved_data.py --raw-path)
+datasets/airline/
+data/airline/
