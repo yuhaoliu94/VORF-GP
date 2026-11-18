@@ -2,6 +2,8 @@
 
 Code for the VORF-GP experiments. The model is in `src/orf_gp`, the ORF/SORF baselines are in `benchmark/`, and the fixed train/test splits are in `datasets/`.
 
+Each experiment is organized in a separate directory under `experiments/`. Follow the instructions below to reproduce the corresponding tables and figures.
+
 ## Setup
 
 Tested with Python 3.11, numpy 2.4, scipy 1.17, pandas 3.0, scikit-learn 1.8, matplotlib 3.10, and xlrd 2.0.
